@@ -1,0 +1,54 @@
+.main-nav{
+    min-height: 100dvh;
+    width: 15%;
+    background: rgb(231, 157, 46);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 45px 10px;
+}
+
+.main-nav h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.main-nav ul{
+    padding: 0;
+}
+
+.main-nav ul li{
+    font-size: 25px;
+    margin-bottom: 10px;
+    transition: .5s all;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.main-nav ul li:hover{
+    background: black;
+    color: white;
+    
+}
+
+.main-nav .user_actions{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    bottom: 60px;
+}
+
+.main-nav .user_actions span{
+    display: block;
+    font-size: 20px;
+    
+}
+
+.main-nav .user_actions span i{
+    margin-right: 20px;
+    cursor: pointer;
+}

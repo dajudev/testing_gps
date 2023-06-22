@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  min-height: 100dvh;
+  width: 100%;
+  background: white;
+}
+
+.main-container{
+  width: 100%;
+  background: rgb(214, 190, 190);
+}
+

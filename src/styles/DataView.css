@@ -1,0 +1,64 @@
+.dataview-main{
+    width: 100%;
+    display: flex;
+}
+
+/* CENTER CONTAINER (MAP) STYLES*/
+.dataview-main .center-container{
+    width: 65%;
+    padding: 45px 10px 10px 40px;
+}
+
+.dataview-main .center-container h1{
+    margin-bottom: 30px;
+}
+
+.dataview-main .center-container .map-container{
+    background: #fff;
+    height: 85%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.leaflet-container{
+    height: 100%;
+}
+
+/* INFORMATION CONTAINER STYLES*/
+.info-container{
+    width: 18%;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.position-data-container{
+    width: 100%;
+    background: #fff;
+    margin-top: 110px;
+    border-radius: 10px ;
+    padding: 20px;
+}
+
+.info-container .position-data-container h1{
+    margin-bottom: 30px;
+}
+
+.info-container .position-data-container table{
+    width: 100%;
+}
+
+.info-container .position-data-container table .data{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.main-info table .value{
+    text-align: center;
+    width: 50%;
+}
+
